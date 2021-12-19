@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --headding-font :'Roboto', sans-serif;
+    --content-fonte :'Open Sans', sans-serif;
+    --primary-color :#3C454C;
+    --secondary-color:#3D5762;
+    --light-color:#778B91;
+}
+*{
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+h1,h2,h3{
+    font-family: var(--headding-font);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+h4,h5{
+    font-family: var(--content-fonte);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p{
+    font-family: var(--content-fonte);
+    font-weight: 400;
+    font-size: 1rem;
+}
+img{
+    max-width: 100%;
+}
+
+/* ==========================
+    hero secction start
+========================== */
+.hero-section{
+    background: url(./image/image\ 2.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    align-items: center;
+    height: 20rem;
+}
+.hero-section h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--headding-font);
+}
+
+/* ==========================
+    hero secction end
+========================== */
+
+/* ==========================
+    content secction start
+========================== */
+.DONATION-AMOUNT{
+    background-color: var(--secondary-color);
+    padding-bottom: 2.5rem;
+    margin-right: 1.5rem;
+    
+    
+}
+.DONATION-AMOUNT h3{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 2.5rem;
+    
+}
+.DONATION-button{
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    
+    
+}
+.DONATION-button a{ 
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #fff;
+    padding: 10px 25px;
+    
+}
+.DONATION-button :nth-child(1){
+    color: var(--light-color);
+    font-weight: 400;
+    
+}
+.DONATION-button :nth-child(2){
+    background: var(--secondary-color);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--secondary-color);
+    padding: 17px 28px;
+    justify-content: space-around;
+
+    
+  }
+  .grid-item {
+    background-color: #C8D4D8;
+    
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .grid-container :nth-child(3){
+      background-color: #fff;
+  }
+
+.amount-section{
+    justify-content: space-around;
+    padding: 28px;
+    align-items: center;
+    
+}
+.amount-section h4{
+    color: #fff;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+}
+.amount-section input{
+    flex: 1;
+    padding: 1rem 0;
+    padding-left: 1rem;
+}
+.bank-image{
+    padding: 0 28px;
+
+}
+.images{
+    background: #fff;
+    padding: 0;
+    
+}
+
+.paypal-image{
+    
+    padding: 1rem 28px;
+    
+}
+
+
+.content-item p{
+    padding: 1rem 0;
+}
+.content-item{
+    margin-left: 1.5rem;
+}
+
+/* ==========================
+    content secction end
+========================== */
